@@ -26,11 +26,11 @@ This repository contains a **complete CS:GO server** from October 8, 2015 — th
 
 --- 
 ## Command / Команда	Effect (EN)	Эффект (RU)
-## awp	All players will start with AWP	У всех игроков будет AWP на старте
-## ak47	All players will start with AK-47	У всех игроков будет AK-47 на старте
-## m4a1_s	All players will start with M4A1-S	У всех игроков будет M4A1-S на старте
-## deagle	All players will start with Desert Eagle	У всех игроков будет Desert Eagle на старте
-## default	T team: AK-47, CT team: M4A1-S	Террористы: AK-47, Контры: M4A1-S
+## awp -	All players will start with AWP /	У всех игроков будет AWP на старте
+## ak47 -	All players will start with AK-47	/ У всех игроков будет AK-47 на старте
+## m4a1_s -	All players will start with M4A1-S /	У всех игроков будет M4A1-S на старте
+## deagle	- All players will start with Desert Eagle /	У всех игроков будет Desert Eagle на старте
+## default -	T team: AK-47, CT team: M4A1-S /	Террористы: AK-47, Контры: M4A1-S
 
 ## LINK TO DOWNLOAD THE SERVER / ССЫЛКА НА СКАЧИВАНИЕ СЕРВЕРА: https://drive.google.com/file/d/1rYxZuFGMRuJfEkUiz7UwGH6z547YTPkP/view?usp=drive_link
 
@@ -41,3 +41,4 @@ This repository contains a **complete CS:GO server** from October 8, 2015 — th
 ### EN / EN:
 ```batch
 srcds.exe -game csgo -console +map de_dust2 +exec gamemode_botdeath_only_csgo
+
